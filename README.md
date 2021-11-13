@@ -23,8 +23,8 @@ then attached to an email sent to Ghostbusters HQ.
 
 Signalwire technology used: the Relay SDK for Python.
 
-External dependencies used: just a few Python modules (urllib, smtplib,
-magic, email, etc.).
+External dependencies used: a few Python modules (urllib, smtplib,
+magic, email, etc.) and it expects there's a local SMTP server available to send email.
 
 The code imports EMAIL_ADDRESS, PHONE_NUMBER, API_PROJECT, API_TOKEN
 from the environment.
